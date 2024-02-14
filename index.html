@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +8,9 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
-    <link rel="stylesheet" href="css/custom.css" type="text/css">
+    <link type="text/css" rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="./assets/css/custom.css" type="text/css">
 </head>
-
 <body>
     <!--Start Header-->
     <header>
@@ -39,33 +37,32 @@
         </nav>
     </header>
     <!--End Header-->
-
     <!--Start Slider-->
     <div class="slider">
         <ul class="slides">
             <li>
-                <img src="https://picsum.photos/580/250?=1"> <!-- random image -->
+                <img src="./assets/image/s1.jpg"> <!-- random image -->
                 <div class="caption center-align">
                     <h3>Treine conosco!</h3>
                     <h5 class="light grey-text text-lighten-3">Fique forte!</h5>
                 </div>
             </li>
             <li>
-                <img src="https://picsum.photos/580/250?=2"> <!-- random image -->
+                <img src="./assets/image/s2.jpg"> <!-- random image -->
                 <div class="caption left-align">
                     <h3>Exercircios todos os dias</h3>
                     <h5 class="light grey-text text-lighten-3">Faça, repita e vença suas metas.</h5>
                 </div>
             </li>
             <li>
-                <img src="https://picsum.photos/580/250?=3"> <!-- random image -->
+                <img src="./assets/image/s3.jpg"> <!-- random image -->
                 <div class="caption right-align">
                     <h3>Profissionais com expêriencia</h3>
                     <h5 class="light grey-text text-lighten-3">Sempre a disposição</h5>
                 </div>
             </li>
             <li>
-                <img src="https://picsum.photos/580/250?=4"> <!-- random image -->
+                <img src="./assets/image/s4.jpg"> <!-- random image -->
                 <div class="caption center-align">
                     <h3>Melhores equipamentos e estrutura</h3>
                     <h5 class="light grey-text text-lighten-3">Venha sem medo.</h5>
@@ -74,7 +71,6 @@
         </ul>
     </div>
     <!--End Slider-->
-
     <!--Start Content-->
     <div class="row container">
         <!--Start Notice-->
@@ -83,7 +79,7 @@
             <article class="col s12 l6 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="image/banner.jpg">
+                        <img src="./assets/image/banner.jpg" alt="Card">
                     </div>
                     <div class="card-content">
                         <span class="card-title">Título do cartão</span>
@@ -98,7 +94,7 @@
             <article class="col s12 l6 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="image/banner.jpg">
+                        <img src="./assets/image/banner.jpg" alt="Card">
                     </div>
                     <div class="card-content">
                         <span class="card-title">Título do cartão</span>
@@ -113,7 +109,7 @@
             <article class="col s12 l6 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="image/banner.jpg">
+                        <img src="./assets/image/banner.jpg" alt="Card">
                     </div>
                     <div class="card-content">
                         <span class="card-title">Título do cartão</span>
@@ -128,7 +124,7 @@
             <article class="col s12 l6 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="image/banner.jpg">
+                        <img src="./assets/image/banner.jpg" alt="Card">
                     </div>
                     <div class="card-content">
                         <span class="card-title">Título do cartão</span>
@@ -143,7 +139,7 @@
             <article class="col s12 l6 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="image/banner.jpg">
+                        <img src="./assets/image/banner.jpg" alt="Card">
                     </div>
                     <div class="card-content">
                         <span class="card-title">Título do cartão</span>
@@ -158,7 +154,7 @@
             <article class="col s12 l6 xl4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="image/banner.jpg">
+                        <img src="./assets/image/banner.jpg" alt="Card">
                     </div>
                     <div class="card-content">
                         <span class="card-title">Título do cartão</span>
@@ -176,7 +172,7 @@
             <h5 class="light">Mais lidas</h5>
             <ul class="collection">
                 <li class="collection-item avatar">
-                    <img src="image/user.jpg" alt="" class="circle">
+                    <img src="./assets/image/user.jpg" alt="Avatar" class="circle">
                     <span class="title">Title</span>
                     <p>First Line <br>
                         Second Line
@@ -211,16 +207,14 @@
             <h5 class="light">Sobre o autor</h5>
             <div class="card blue center">
                 <div class="card-content white-text">
-                    <img src="image/user.jpg" class="circle responsive-img" width="100">
+                    <img src="./assets/image/user.jpg" class="circle responsive-img" width="100" alt="Avatar">
                     <p>Eu sou um cartão muito simples. Eu sou bom em conter pequenos pedaços de informação.
                         Sou conveniente porque preciso de pouca marcação para usar com eficiência.</p>
                 </div>
-                
             </div>
         </aside>
     </div>
     <!--End Content-->
-
     <!--Start Footer-->
     <footer class="page-footer black">
         <div class="container">
@@ -250,25 +244,16 @@
         </div>
     </footer>
     <!--End Footer-->
-
     <!--Import jQuery before materialize.js-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <!--
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    -->
-    <script type="text/javascript" src="js/materialize.js"></script>
-
-    <script>
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript">
         $(document).ready(function () {
             //Botão menu
             $(".button-collapse").sideNav()
-
             //Slider
             $('.slider').slider();
         })
     </script>
 </body>
-
 </html>
